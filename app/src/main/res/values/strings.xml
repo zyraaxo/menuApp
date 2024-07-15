@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">app</string>
+    <string name="whats_on_the_menu">Whats on the menu?</string>
+    <string name="login">login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="results">Results:</string>
+</resources>

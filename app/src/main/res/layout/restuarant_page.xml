@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:id="@+id/image"
+        android:layout_height="200dp"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pastelYellow">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/font1med"
+            android:text="Restaurant"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/arrow"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="300dp"
+            android:clickable="true">
+
+        </ImageView>
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="2dp"
+        android:background="@color/black" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/pastelYellow"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Breakfast"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font1med"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Lunch"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font1med"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Dinner"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font1med"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Desserts"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font1med"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Drinks"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font1med"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Snacks"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font1med"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Other"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font1med"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+        android:id="@+id/breakfast"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/font1med">
+
+    </TextView>
+    <View
+        android:layout_width="120dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="2dp"
+        android:background="@color/black" />
+
+
+
+    <ListView
+        android:id="@+id/breakfast_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
